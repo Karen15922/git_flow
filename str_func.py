@@ -3,7 +3,7 @@ def to_upper(s):
     return s.upper()
 
 def capitalize_words(s):
-    """Функция переводит первую в заглавную каждого слова в строке """
+    """Функция переводит первую в заглавную каждого слова в строке"""
     return ' '.join(word.capitalize() for word in s.split())
 
 
